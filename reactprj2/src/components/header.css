@@ -1,0 +1,12 @@
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    background: rgb(61, 17, 101);
+}
+h2::first-letter{
+    color: red;
+    font-weight: bold;
+}

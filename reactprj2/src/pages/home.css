@@ -1,0 +1,28 @@
+.div1{
+    border-bottom: 2px solid blueviolet;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.list-items{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+h6{
+    color: blueviolet;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+.contacts{
+    display: flex;
+}
+label{
+    display: flex;
+    margin-top: 50px;
+    color: red;
+}
+label::first-letter{
+    color: red;
+    font-weight: bold;
+}
